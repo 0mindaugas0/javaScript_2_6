@@ -1,12 +1,10 @@
-let a = 1;
+faktorialas();
 
-let faktorialas1 = faktorialas(a);
-
-function faktorialas(skaicius){
-    console.log (skaicius * 1);
-    console.log (skaicius * 1 * 2);
-    console.log (skaicius * 1 * 2 * 3);
-    console.log (skaicius * 1 * 2 * 3 * 4);
-    console.log (skaicius * 1 * 2 * 3 * 4 * 5);
+function faktorialas(){
+    console.log (1);
+    console.log (1 * 2);
+    console.log (1 * 2 * 3);
+    console.log (1 * 2 * 3 * 4);
+    console.log (1 * 2 * 3 * 4 * 5);
 }
 
